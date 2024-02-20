@@ -22,10 +22,23 @@
 
 * git init
 
+## Comando para saber el estado de nueatros archivos
+* git status
+
+## comando para listar las versiones de mi proyecto
+* git log ""
+* git log --oneline ""
+
 ## pasos para crear una version de nuestro codigo 
 
 1. Agregar todos los archivos al comit 
 * git add .
 * git add *.js "para agregar algunos con extencion en especifico"
-* git add index.js
+* git add index.js "para agregar un archivo especifico"
+
+2. Tomar la foto del codigo (crear una nueva version)
+
+*git commit -m "Nombre del comit"
+
+
 
