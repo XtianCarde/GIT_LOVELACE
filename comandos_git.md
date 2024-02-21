@@ -29,8 +29,10 @@
 * git log ""
 * git log --oneline ""
 
-## comando para cambiar de version o devolverme la version
+## comando para cambiar de version 
 * git checkout <id del commit o nombre de la rama>
+* git checkout <nombre de la rama "Main">
+
 
 ## pasos para crear una version de nuestro codigo 
 
@@ -45,3 +47,27 @@
 
 
 
+# ---------------------- RAMAS --------------------------------
+
+*Las ramas en git nos facilita la dependencia de codigo
+
+- merge : es el proceso de integrar los cambios de una rama y los combine con otra.
+
+
+## Comando para listar las ramas de mi repositorio 
+git branch "Listar las ramas"
+git branch -v "Crear una nueva rama"
+
+# crando rama
+git branch nombre_rama
+git switch nombre_rama 
+git checkout -b nombre_rama (crea la rama y hace el cambio)
+
+# comando para eliminar una rama
+
+git branch -D nombre_Rama
+
+
+# Comando para cambiar el nombre de una rama
+
+git branch -M nuevo_Nombre
