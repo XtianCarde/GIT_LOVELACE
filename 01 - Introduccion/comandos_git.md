@@ -75,3 +75,10 @@ git branch -D nombre_Rama
 # Comando para cambiar el nombre de una rama
 
 git branch -M nuevo_Nombre
+
+
+# ------------------------EXTENCIONES DE VISUAL ESTUDIO -------------------------
+
+git graph
+git history
+gitlens
